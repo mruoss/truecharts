@@ -5,7 +5,7 @@ backendImage:
 exporterImage:
   pullPolicy: IfNotPresent
   repository: penpotapp/exporter
-  tag: 1.19.3@sha256:e113a685d07bff470a2e75acab61fd61c5b24185d8931fd19b65d1f622061823
+  tag: 1.19.3@sha256:141404bf137fc030c9b8359a83c1d77a4693deb59a50af3612f35d3a22cec8d0
 hostAliases:
   - hostnames:
       - penpot-backend
@@ -15,7 +15,7 @@ hostAliases:
 image:
   pullPolicy: IfNotPresent
   repository: penpotapp/frontend
-  tag: 1.19.3@sha256:cfc31dd9d63ec92759dc66b19da5401896748c6ec96ce1f3b06a21604eaa16e9
+  tag: 1.19.3@sha256:6c0ff81ad041d95f0e78527c0003972620028f06319369dc98a71d69dcfe53fb
 penpot:
   flags:
     backend_api_doc: false
