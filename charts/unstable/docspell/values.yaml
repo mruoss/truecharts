@@ -8,11 +8,11 @@ dsc:
 dscImage:
   pullPolicy: IfNotPresent
   repository: docspell/dsc
-  tag: v0.10.0@sha256:68499b4cdf891f1b5b252d1790d8f3350f4513051cf0439298bec05e505cfdc7
+  tag: v0.11.0@sha256:9b7e0410737446b1409ce609061096a06281dcb3e03250443e96511583197865
 image:
   pullPolicy: IfNotPresent
   repository: docspell/restserver
-  tag: v0.40.0@sha256:3495d25517e3aa2db8e1ea76bc9f6dad04598e9c6ad59acf2223cacc9493c53b
+  tag: v0.41.0@sha256:a4f0462035327d65bd3a7c2dbc89d576c4a6edea666fc20c834d77ffa453fa14
 joex:
   addons:
     cache_dir: /tmp/docspell-addons-cache
@@ -238,7 +238,7 @@ joex:
 joexImage:
   pullPolicy: IfNotPresent
   repository: docspell/joex
-  tag: v0.40.0@sha256:09cb3b82f596cfa1999228a4ded65c53a749879c1923a438a7b6961167212930
+  tag: v0.41.0@sha256:3dfe7831b48db7535746626c3baad7216514b1201c742fc6150b19771097ba88
 persistence:
   import:
     enabled: true
