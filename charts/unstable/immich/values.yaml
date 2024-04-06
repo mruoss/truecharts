@@ -1,10 +1,10 @@
 image:
   repository: altran1502/immich-server
-  tag: v1.88.2@sha256:d91f7b58ccc9fe57a62e037e98882fe88abd36c8e8a1949f7af0db13049d0e92
+  tag: v1.101.0@sha256:0097562444db38ebd2e5f98e71bd27dc6dd69b7f786207f7d323febbf99b8f93
   pullPolicy: IfNotPresent
 mlImage:
   repository: altran1502/immich-machine-learning
-  tag: v1.88.2@sha256:d63de8141e64d77423a23c28ffc9c622420c7fd506fa0dc061f6ff6fac7b2f8e
+  tag: v1.101.0@sha256:b0a22ca87496019f495ed5ce89df08da237e0987d389376b435b2226a8c29463
   pullPolicy: IfNotPresent
 typesenseImage:
   repository: typesense/typesense
